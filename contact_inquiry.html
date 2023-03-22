@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=1400"><!--다른 매체에서도 너비 오류 없이 볼 수 있게-->
+  <link href="./images/main/favicon/favicon.png" rel="icon" type="image/png" sizes="32x32"><!--파비콘-->
+  <title>소장</title>
+
+  <!-- aos css -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- 내 css -->
+  <link rel="stylesheet" href="./css/inquiry_style.css">
+</head>
+
+<body>
+  <!-- 페이지 시작 효과 시작 -->
+  <div class="effect"></div>
+  <!-- 페이지 시작 효과 끝 -->
+
+  <!-- 네비게이션 시작 -->
+  <div class="all">
+    <nav>
+      <a href="./index.html"><img src="./images/main/logo/header_logo.png" alt="헤더 로고 이미지"></a>
+
+      <ul class="nav_ul">
+        <li><a href="./index.html">HOME<span></span></a></li>
+        <li><a href="./about.html">ABOUT<span></span></a>
+          <ul class="sub">
+            <li><a href="./about.html#bi">BI<span></span></a></li>
+            <li><a href="./about.html#mission">MISSION<span></span></a></li>
+          </ul>
+        </li>
+        <li><a href="./work.html">WORK<span></span></a>
+          <ul class="sub">
+            <li><a href="./work.html#web">WEBNOVEL<span></span></a></li>
+            <li><a href="./work.html#book">BOOK<span></span></a></li>
+            <li><a href="./work.html#goods">GOODS<span></span></a></li>
+          </ul>
+        </li>
+        <li><a href="#none">COMMUNITY<span></span></a>
+          <ul class="sub">
+            <li><a href="./community_sns.html">SNS<span></span></a></li>
+            <li><a href="./community_partner.html">PARTNER PLATFORM<span></span></a></li>
+          </ul>
+        </li>
+        <li class="on"><a href="#none">CONTACT<span></span></a>
+          <ul class="sub">
+            <li><a href="./contact_location.html">LOCATION<span></span></a></li>
+            <li><a href="./contact_contribution.html">CONTRIBUTION<span></span></a></li>
+            <li><a href="./contact_inquiry.html">INQUIRY<span></span></a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="all header_bg">
+    <nav>
+      <a href="./index.html"><img src="./images/main/logo/header_logo.png" alt="헤더 로고 이미지"></a>
+
+      <ul class="nav_ul">
+        <li><a href="./index.html">HOME<span></span></a></li>
+        <li><a href="./about.html">ABOUT<span></span></a>
+          <ul class="sub">
+            <li><a href="./about.html#bi">BI<span></span></a></li>
+            <li><a href="./about.html#mission">MISSION<span></span></a></li>
+          </ul>
+        </li>
+        <li><a href="./work.html">WORK<span></span></a>
+          <ul class="sub">
+            <li><a href="./work.html#web">WEBNOVEL<span></span></a></li>
+            <li><a href="./work.html#book">BOOK<span></span></a></li>
+            <li><a href="./work.html#goods">GOODS<span></span></a></li>
+          </ul>
+        </li>
+        <li><a href="#none">COMMUNITY<span></span></a>
+          <ul class="sub">
+            <li><a href="./community_sns.html">SNS<span></span></a></li>
+            <li><a href="./community_partner.html">PARTNER PLATFORM<span></span></a></li>
+          </ul>
+        </li>
+        <li class="on"><a href="#none">CONTACT<span></span></a>
+          <ul class="sub">
+            <li><a href="./contact_location.html">LOCATION<span></span></a></li>
+            <li><a href="./contact_contribution.html">CONTRIBUTION<span></span></a></li>
+            <li><a href="./contact_inquiry.html">INQUIRY<span></span></a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <!-- 네비게이션 끝 -->
+
+  <!-- 메인 배너 시작 -->
+  <div class="main_banner">
+    <div class="main_banner_inner">
+      <h1 data-aos="fade-right" data-aos-delay="1000">CONTACT</h1>
+      <h2 data-aos="fade-right" data-aos-delay="1500">INQUIRY</h2>
+    </div>
+  </div>
+  <!-- 메인 배너 끝 -->
+
+  <!-- 문의란 시작 -->
+  <form>
+    <div class="inquiry">
+      <h1>문의하기</h1>
+
+      <!-- 문의자 정보 시작-->
+      <div class="enquirer_info">
+        <h3>문의자 정보</h3>
+        <ul class="enquirer_info_ul">
+          <li>
+            <label for="name">이름</label> <input type="text" placeholder="이름을 입력해주세요." id="name" required>
+            <span></span>
+          </li>
+          <li>
+            <label for="tel">연락처</label> <input type="tel" placeholder="연락처를 입력해주세요." id="tel" required>
+            <span></span>
+          </li>
+          <li>
+            <label for="email">이메일</label> <input type="text" placeholder="아이디를 입력해주세요." id="email" required>
+            @
+            <input type="text" id="email2">
+            <span></span>
+          </li>
+          <li>
+            <select id="email_site">
+              <option>선택</option>
+              <option value="naver.com">네이버</option>
+              <option value="daum.net">다음</option>
+              <option value="gmail.com">구글</option>
+              <option value="user">직접입력</option>
+            </select>
+            <span></span>
+          </li>
+        </ul>
+      </div>
+      <!-- 저자정보 끝 -->
+
+      <!-- 문의 분야 시작 -->
+      <div class="inquiry_field">
+        <h3>문의 분야</h3>
+        <div class="inquiry_field_inner">
+          <input type="radio" id="misprint" name="inquiry_field_select" value="오탈자 신고" required><label
+            for="misprint"><img src="./images/contribution/icon/icon_check_off.png" alt="체크" class="check_img">오탈자
+            신고</label>
+
+          <input type="radio" id="book_related" name="inquiry_field_select" value="도서 관련"><label for="book_related"><img
+              src="./images/contribution/icon/icon_check_off.png" alt="체크" class="check_img">도서 관련</label>
+
+          <input type="radio" id="copyright" name="inquiry_field_select" value="저작권 문의"><label for="copyright"><img
+              src="./images/contribution/icon/icon_check_off.png" alt="체크" class="check_img">저작권 문의</label>
+
+          <input type="radio" id="collaboration" name="inquiry_field_select" value="협업 제안"><label
+            for="collaboration"><img src="./images/contribution/icon/icon_check_off.png" alt="체크" class="check_img">협업
+            제안</label>
+
+          <input type="radio" id="recruitment" name="inquiry_field_select" value="채용 관련"><label for="recruitment"><img
+              src="./images/contribution/icon/icon_check_off.png" alt="체크" class="check_img">채용 관련</label>
+
+          <input type="radio" id="etc" name="inquiry_field_select" value="etc"><label for="etc"><img
+              src="./images/contribution/icon/icon_check_off.png" alt="체크" class="check_img">기타</label>
+        </div>
+      </div>
+      <!-- 문의 분야 끝 -->
+
+      <!-- 문의 내용 시작 -->
+      <div class="inquiry_content">
+        <h3>문의 내용</h3>
+        <textarea name="inquiry_content_box" id="inquiry_content_box" placeholder="문의하시는 내용을 기재해주세요." required></textarea>
+
+        <div class="synopsis_up">
+          <label for="file" class="file">
+            <div class="btn-upload">파일 업로드</div>
+          </label>
+          <input type="file" name="file" data-ax-path="file" id="file" class="form-control">
+        </div>
+      </div>
+      <!-- 문의 내용 끝 -->
+
+      <!-- 개인정보처리방침 시작 -->
+      <div class="personal_info">
+        <h3>개인정보 처리방침 동의</h3>
+        <div class="personal_info_text">
+          <b>개인정보 수집 및 이용 동의</b>
+          <p>
+            - 처리목적 : 서비스 제공관련 고객 상담, 문의사항 확인 및 처리, 고객 연락 등 <br>
+            - 처리(수집) 항목 : 이름, 연락처, 이메일 <br>
+            - 보유기간 : 목적 달성 시까지 <br>
+            * 상기의 개인정보 수집 및 이용을 거부하실 수 있으나, 거부하시는 경우 서비스 이용이 불가합니다.
+          </p>
+        </div>
+        <div class="personal_info_check">
+          <input type="checkbox" id="personal_info_checkbox" required><label for="personal_info_checkbox">개인정보 처리방침에
+            동의합니다.</label>
+        </div>
+      </div>
+      <!-- 개인정보처리방침 끝 -->
+
+      <p>
+        문의주신 내용은 담당 부서에 전달하여 검토한 후 메일로 답변 드리겠습니다.
+      </p>
+      <input type="submit" value="문의하기" id="submit">
+    </div>
+  </form>
+  <!-- 문의란 끝 -->
+
+  <!-- 푸터 시작 -->
+  <footer>
+    <div class="footer_inner">
+      <a href="./index.html"><img src="./images/main/logo/footer_logo.png" alt="푸터 로고 이미지"></a>
+      <ul class="sns_button">
+        <li><a href="https://www.instagram.com/" target="_blank"><img src="./images/main/icon/icon_insta.png"
+              alt="인스타 이동 버튼"></a></li>
+        <li><a href="https://twitter.com/" target="_blank"><img src="./images/main/icon/icon_twitter.png"
+              alt="트위터 이동 버튼"></a></li>
+        <li><a href="https://section.blog.naver.com/BlogHome.naver?directoryNo=0&currentPage=1&groupId=0"
+            target="_blank"><img src="./images/main/icon/icon_blog.png" alt="블로그 이동 버튼"></a></li>
+      </ul>
+      <p>
+        대표자｜박효빈<br>
+        대표번호｜051-245-1650<br>
+        사업자등록번호｜ 000-00-00000<br>
+        주소｜ 부산광역시 중구 중앙대로 26 다원중앙타워 10<br>
+        © 2023. 소장 all rights reserved.
+      </p>
+    </div>
+  </footer>
+  <!-- 푸터 끝 -->
+
+  <!-- 상단 이동 버튼 시작 -->
+  <a href="#" class="move_top"><img src="./images/main/icon/icon_move_top.png" alt="상단 이동 버튼 이미지"></a>
+  <!-- 상단 이동 버튼 끝 -->
+
+
+
+  <!-- 자바스크립트 -->
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script><!-- 제이쿼리 라이브러리, 수정X -->
+  <!-- 네비게이션 js -->
+  <script src="script/header_scroll.js"></script>
+  <!-- 상단 이동 버튼 js -->
+  <script src="script/icon.js"></script>
+  <!-- aos js -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!-- aos 라이브러리 -->
+  <script src="script/aos.js"></script><!-- aos 소스 -->
+  <!-- 투고란용 js -->
+  <script src="./script/contribution.js"></script>
+</body>
+
+</html>

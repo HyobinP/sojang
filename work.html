@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=1400"><!--다른 매체에서도 너비 오류 없이 볼 수 있게-->
+  <link href="./images/main/favicon/favicon.png" rel="icon" type="image/png" sizes="32x32"><!--파비콘-->
+  <title>소장</title>
+
+  <!-- 탭 css -->
+  <link rel="stylesheet" href="css/tab.css">
+
+  <!-- aos css -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- 내 css -->
+  <link rel="stylesheet" href="./css/work_style.css">
+</head>
+
+<body>
+  <!-- 페이지 시작 효과 시작 -->
+  <div class="effect"></div>
+  <!-- 페이지 시작 효과 끝 -->
+
+  <!-- 네비게이션 시작 -->
+  <div class="all">
+    <nav>
+      <a href="./index.html"><img src="./images/main/logo/header_logo.png" alt="헤더 로고 이미지"></a>
+
+      <ul class="nav_ul">
+        <li><a href="./index.html">HOME<span></span></a></li>
+        <li><a href="./about.html">ABOUT<span></span></a>
+          <ul class="sub">
+            <li><a href="./about.html#bi">BI<span></span></a></li>
+            <li><a href="./about.html#mission">MISSION<span></span></a></li>
+          </ul>
+        </li>
+        <li class="on"><a href="./work.html">WORK<span></span></a>
+          <ul class="sub">
+            <li><a href="./work.html#web">WEBNOVEL<span></span></a></li>
+            <li><a href="./work.html#book">BOOK<span></span></a></li>
+            <li><a href="./work.html#goods">GOODS<span></span></a></li>
+          </ul>
+        </li>
+        <li><a href="#none">COMMUNITY<span></span></a>
+          <ul class="sub">
+            <li><a href="./community_sns.html">SNS<span></span></a></li>
+            <li><a href="./community_partner.html">PARTNER PLATFORM<span></span></a></li>
+          </ul>
+        </li>
+        <li><a href="#none">CONTACT<span></span></a>
+          <ul class="sub">
+            <li><a href="./contact_location.html">LOCATION<span></span></a></li>
+            <li><a href="./contact_contribution.html">CONTRIBUTION<span></span></a></li>
+            <li><a href="./contact_inquiry.html">INQUIRY<span></span></a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="all header_bg">
+    <nav>
+      <a href="./index.html"><img src="./images/main/logo/header_logo.png" alt="헤더 로고 이미지"></a>
+
+      <ul class="nav_ul">
+        <li><a href="./index.html">HOME<span></span></a></li>
+        <li><a href="./about.html">ABOUT<span></span></a>
+          <ul class="sub">
+            <li><a href="./about.html#bi">BI<span></span></a></li>
+            <li><a href="./about.html#mission">MISSION<span></span></a></li>
+          </ul>
+        </li>
+        <li class="on"><a href="./work.html">WORK<span></span></a>
+          <ul class="sub">
+            <li><a href="./work.html#web">WEBNOVEL<span></span></a></li>
+            <li><a href="./work.html#book">BOOK<span></span></a></li>
+            <li><a href="./work.html#goods">GOODS<span></span></a></li>
+          </ul>
+        </li>
+        <li><a href="#none">COMMUNITY<span></span></a>
+          <ul class="sub">
+            <li><a href="./community_sns.html">SNS<span></span></a></li>
+            <li><a href="./community_partner.html">PARTNER PLATFORM<span></span></a></li>
+          </ul>
+        </li>
+        <li><a href="#none">CONTACT<span></span></a>
+          <ul class="sub">
+            <li><a href="./contact_location.html">LOCATION<span></span></a></li>
+            <li><a href="./contact_contribution.html">CONTRIBUTION<span></span></a></li>
+            <li><a href="./contact_inquiry.html">INQUIRY<span></span></a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <!-- 네비게이션 끝 -->
+
+  <!-- 메인 배너 시작 -->
+  <div class="main_banner">
+    <div class="main_banner_inner">
+      <h1 data-aos="fade-right" data-aos-delay="1000">WORK</h1>
+      <h2 data-aos="fade-right" data-aos-delay="1500">WEBNOVEL｜BOOK｜GOODS</h2>
+    </div>
+  </div>
+  <!-- 메인 배너 끝 -->
+
+  <!--탭 시작-->
+  <div class="tab">
+    <ul class="tabnav">
+      <li><a href="#tab01"><img src="./images/work/icon/icon_list.png" alt="목록형 탭"></a></li>
+      <li><a href="#tab02"><img src="./images/work/icon/icon_album.png" alt="앨범형 탭"></a></li>
+    </ul>
+    <div class="tabcontent">
+      <!-- 탭1 콘텐츠 시작 -->
+      <div id="tab01">
+        <!-- 바 시작 -->
+        <div class="bar">
+          <div class="bar_inner">
+            <ul class="wbg_button_ul">
+              <li><a href="#web">WEBNOVEL</a></li>
+              <li><a href="#book">BOOK</a></li>
+              <li><a href="#goods">GOODS</a></li>
+            </ul>
+            <input type="search" placeholder="search">
+          </div>
+        </div>
+        <!-- 바 끝 -->
+        <div class="content_web" id="web">
+          <h1>WEBNOVEL</h1>
+
+          <a href="#none">
+            <article class="web_thron">
+              <div class="inner_img">
+                <img src="./images/work/Products/product_web_throne.jpg" alt="그 왕좌는 당신에게 어울리지 않는다 표지">
+              </div>
+              <div class="inner_text">
+                <h2>그 왕좌는 당신에게 어울리지 않는다</h2>
+                <h3>이든</h3>
+                <h4>“당신이 그 자리에 계속 앉아 있겠다고 버틴다면 어쩔 수 없지. 내 손으로 끌어내리는 수밖에.”</h4>
+                <p>
+                  게르하르트의 서늘한 시선이 계단을 밟고 위로 또 위로 올라갔다. 바라보기도 힘들 만큼 찬란한 빛을 발하는 왕좌 위에는 그의 오랜 친우가 앉아 있었다. <br>
+                  종족을 뛰어넘어 서로를 이해하는 사이라고 생각했다. 그 모든 대화가 게르하르트의 눈을 가리기 위한 거짓말이었다는 사실을 알아차리기 전까지. 그녀의 손에 잡혀 이용당하고 끝내 죽임당한
+                  동족들의 시체가 이룬 산을 발견하기 전까지 말이다. <br>
+                  그녀의 오만함이 흘러넘치는 낯을 꿋꿋하게 응시하던 게르하르트가 말했다. <br>
+                  “그래. 인정해. 당신의 능력은 나로서도 높이 평가하지 않을 수가 없지.”
+                </p>
+                <ul class="keyword">
+                  <li>#서양배경</li>
+                  <li>#로맨스판타지</li>
+                  <li>#인외존재</li>
+                  <li>#배신</li>
+                  <li>#애증</li>
+                  <li>#카리스마남</li>
+                  <li>#계략녀</li>
+                </ul>
+              </div>
+            </article>
+          </a>
+
+          <a href="#none">
+            <article class="web_sea">
+              <div class="inner_img">
+                <img src="./images/work/Products/product_web_sea.jpg" alt="낭만이라고는 없는 바다 표지">
+              </div>
+              <div class="inner_text">
+                <h2>낭만이라고는 없는 바다</h2>
+                <h3>이도아</h3>
+                <h4>“확실히 이 바다에 낭만은 없지. 하지만 너는 있잖아.”</h4>
+                <p>
+                  “이번 일이 끝나면 같이 바다에라도 갈까.” <br>
+                  난데없는 말이었다. 야근에 찌든 나머지 의자에 해조류처럼 축 늘어져서는 전쟁 소설의 클리셰 같은 소리를 내뱉다니, 최악 중의 최악이었다. <br>
+                  “그럴까.” <br>
+                  하지만 어째서인지 수락해 버리고 말았다. 주인공이 왜 그런 멋도 없는 권유를 수락하는지 늘 이해할 수 없었는데, 지금 이 순간에 이해하고야 말았다. <br>
+                  그냥 아무런 생각이 없었던 것이었다.
+                </p>
+                <ul class="keyword">
+                  <li>#현대배경</li>
+                  <li>#로맨스</li>
+                  <li>#친구에서연인</li>
+                  <li>#다정남</li>
+                  <li>#까칠녀</li>
+                </ul>
+              </div>
+            </article>
+          </a>
+
+          <a href="#none">
+            <article class="web_survival">
+              <div class="inner_img">
+                <img src="./images/work/Products/product_web_survival.jpg" alt="모든 것은 생존을 위한 선택이었다 표지">
+              </div>
+              <div class="inner_text">
+                <h2>모든 것은 생존을 위한 선택이었다</h2>
+                <h3>헤레이스</h3>
+                <h4>“내가 살고 싶었을 뿐이었는데 세계까지 살려 버렸다!”</h4>
+                <p>
+                  알렉시아 가의 총명한 둘째 딸 코델리아. 그녀는 모든 방면에서 두각을 보였으나, 권력 따위에 일말의 관심도 없었다. 첫째인 오라버니가 가주가 될 테니, 자신은 그를 보좌하며 그저
+                  평화롭게
+                  살고 싶었다. <br>
+                  그런데 오라버니의 승계 시기가 다가오면 다가올수록 코델리아에게 변고가 생기기 시작한다. 터무니없는 모함부터 시작해서, 독살 시도에 암살 시도까지…. 필사적으로 뒤를 밟은 결과, 그
+                  모든
+                  시도가 가주를 허수아비로 휘두르려 하는 가솔들의 짓임을 알아낸다. <br>
+                  결국 코델리아는 오라버니의 안정과 자신의 생존을 위해 출가를 결심한다. 하지만 그들이 원하는 대로 흘러가 줄 생각은 없었다. 결혼 대신 용병의 길을 선택한 그녀는 하루하루 고
+                </p>
+                <ul class="keyword">
+                  <li>#서양배경</li>
+                  <li>#로맨스판타지</li>
+                  <li>#성장물</li>
+                  <li>#계약관계</li>
+                  <li>#능력남</li>
+                  <li>#능력녀</li>
+                </ul>
+              </div>
+            </article>
+          </a>
+
+          <a href="#none">
+            <article class="web_snow">
+              <div class="inner_img">
+                <img src="./images/work/Products/product_web_snow.jpg" alt="서리가 녹으면 아침이 오고 눈이 녹으면 봄이 온다 표지">
+              </div>
+              <div class="inner_text">
+                <h2>서리가 녹으면 아침이 오고 눈이 녹으면 봄이 온다</h2>
+                <h3>묵현</h3>
+                <h4>“하이얀 달 아래에 선 서리 빛의 늑대가 내게 말을 걸어 왔다.”</h4>
+                <p>
+                  이유를 알 수 없는 어머니의 간곡한 부탁에 못 이겨 먼 길을 다녀온 묘운을 기다린 것은 하늘 높이 치솟은 시뻘건 불길과 그를 방관하고 있는 마을 사람들이었다. 그는 손 쓸 도리도 없이
+                  모든 것을 잃어버리고 말았다. 집도, 가족도, 관계도. <br>
+                  신의 노여움을 사 벌을 받은 것이라 말하는 마을 사람들을 뒤로한 묘운은 검 한 자루만을 쥐고서 신역으로 향한다. 어디에도 붙일 수 없는 목숨이라면 차라리 복수로써 불태우겠노라고.
+                  <br>
+                  그러나 갖은 고난 끝에 도착한 신역에서 묘운은 웬 서리빛의 늑대를 마주하게 되었다. 도망쳐야 할지, 아니면 맞서 싸워야 할지 고민하는 와중.
+                </p>
+                <ul class="keyword">
+                  <li>#동양배경</li>
+                  <li>#판타지</li>
+                  <li>#초월적존재</li>
+                  <li>#직진남</li>
+                  <li>#상처녀</li>
+                </ul>
+              </div>
+            </article>
+          </a>
+        </div>
+
+        <div class="content_book" id="book">
+          <h1>BOOK</h1>
+
+          <a href="#none">
+            <article>
+              <div class="inner_img">
+                <img src="./images/work/Products/product_book_throne.png" alt="그 왕좌는 당신에게 어울리지 않는다 단행본 표지">
+              </div>
+              <div class="inner_text">
+                <h2>그 왕좌는 당신에게 어울리지 않는다</h2>
+                <h3>이든</h3>
+                <h4>“당신이 그 자리에 계속 앉아 있겠다고 버틴다면 어쩔 수 없지. 내 손으로 끌어내리는 수밖에.”</h4>
+                <p>
+                  게르하르트의 서늘한 시선이 계단을 밟고 위로 또 위로 올라갔다. 바라보기도 힘들 만큼 찬란한 빛을 발하는 왕좌 위에는 그의 오랜 친우가 앉아 있었다. <br>
+                  종족을 뛰어넘어 서로를 이해하는 사이라고 생각했다. 그 모든 대화가 게르하르트의 눈을 가리기 위한 거짓말이었다는 사실을 알아차리기 전까지. 그녀의 손에 잡혀 이용당하고 끝내 죽임당한
+                  동족들의 시체가 이룬 산을 발견하기 전까지 말이다. <br>
+                  그녀의 오만함이 흘러넘치는 낯을 꿋꿋하게 응시하던 게르하르트가 말했다. <br>
+                  “그래. 인정해. 당신의 능력은 나로서도 높이 평가하지 않을 수가 없지.”
+                </p>
+                <ul class="keyword">
+                  <li>#서양배경</li>
+                  <li>#로맨스판타지</li>
+                  <li>#인외존재</li>
+                  <li>#배신</li>
+                  <li>#애증</li>
+                  <li>#카리스마남</li>
+                  <li>#계략녀</li>
+                </ul>
+              </div>
+            </article>
+          </a>
+
+          <a href="#none">
+            <article>
+              <div class="inner_img">
+                <img src="./images/work/Products/product_book_sea.png" alt="낭만이라고는 없는 바다 단행본 표지">
+              </div>
+              <div class="inner_text">
+                <h2>낭만이라고는 없는 바다</h2>
+                <h3>이도아</h3>
+                <h4>“확실히 이 바다에 낭만은 없지. 하지만 너는 있잖아.”</h4>
+                <p>
+                  “이번 일이 끝나면 같이 바다에라도 갈까.” <br>
+                  난데없는 말이었다. 야근에 찌든 나머지 의자에 해조류처럼 축 늘어져서는 전쟁 소설의 클리셰 같은 소리를 내뱉다니, 최악 중의 최악이었다. <br>
+                  “그럴까.” <br>
+                  하지만 어째서인지 수락해 버리고 말았다. 주인공이 왜 그런 멋도 없는 권유를 수락하는지 늘 이해할 수 없었는데, 지금 이 순간에 이해하고야 말았다. <br>
+                  그냥 아무런 생각이 없었던 것이었다.
+                </p>
+                <ul class="keyword">
+                  <li>#현대배경</li>
+                  <li>#로맨스</li>
+                  <li>#친구에서연인</li>
+                  <li>#다정남</li>
+                  <li>#까칠녀</li>
+                </ul>
+              </div>
+            </article>
+          </a>
+
+          <a href="#none">
+            <article>
+              <div class="inner_img">
+                <img src="./images/work/Products/product_book_survival.png" alt="모든 것은 생존을 위한 선택이었다 단행본 표지">
+              </div>
+              <div class="inner_text">
+                <h2>모든 것은 생존을 위한 선택이었다</h2>
+                <h3>헤레이스</h3>
+                <h4>“내가 살고 싶었을 뿐이었는데 세계까지 살려 버렸다!”</h4>
+                <p>
+                  알렉시아 가의 총명한 둘째 딸 코델리아. 그녀는 모든 방면에서 두각을 보였으나, 권력 따위에 일말의 관심도 없었다. 첫째인 오라버니가 가주가 될 테니, 자신은 그를 보좌하며 그저
+                  평화롭게
+                  살고 싶었다. <br>
+                  그런데 오라버니의 승계 시기가 다가오면 다가올수록 코델리아에게 변고가 생기기 시작한다. 터무니없는 모함부터 시작해서, 독살 시도에 암살 시도까지…. 필사적으로 뒤를 밟은 결과, 그
+                  모든
+                  시도가 가주를 허수아비로 휘두르려 하는 가솔들의 짓임을 알아낸다. <br>
+                  결국 코델리아는 오라버니의 안정과 자신의 생존을 위해 출가를 결심한다. 하지만 그들이 원하는 대로 흘러가 줄 생각은 없었다. 결혼 대신 용병의 길을 선택한 그녀는 하루하루 고
+                </p>
+                <ul class="keyword">
+                  <li>#서양배경</li>
+                  <li>#로맨스판타지</li>
+                  <li>#성장물</li>
+                  <li>#계약관계</li>
+                  <li>#능력남</li>
+                  <li>#능력녀</li>
+                </ul>
+              </div>
+            </article>
+          </a>
+
+          <a href="#none">
+            <article>
+              <div class="inner_img">
+                <img src="./images/work/Products/product_book_snow.png" alt="서리가 녹으면 아침이 오고 눈이 녹으면 봄이 온다 단행본 표지">
+              </div>
+              <div class="inner_text">
+                <h2>서리가 녹으면 아침이 오고 눈이 녹으면 봄이 온다</h2>
+                <h3>묵현</h3>
+                <h4>“하이얀 달 아래에 선 서리 빛의 늑대가 내게 말을 걸어 왔다.”</h4>
+                <p>
+                  이유를 알 수 없는 어머니의 간곡한 부탁에 못 이겨 먼 길을 다녀온 묘운을 기다린 것은 하늘 높이 치솟은 시뻘건 불길과 그를 방관하고 있는 마을 사람들이었다. 그는 손 쓸 도리도 없이
+                  모든 것을 잃어버리고 말았다. 집도, 가족도, 관계도. <br>
+                  신의 노여움을 사 벌을 받은 것이라 말하는 마을 사람들을 뒤로한 묘운은 검 한 자루만을 쥐고서 신역으로 향한다. 어디에도 붙일 수 없는 목숨이라면 차라리 복수로써 불태우겠노라고.
+                  <br>
+                  그러나 갖은 고난 끝에 도착한 신역에서 묘운은 웬 서리빛의 늑대를 마주하게 되었다. 도망쳐야 할지, 아니면 맞서 싸워야 할지 고민하는 와중.
+                </p>
+                <ul class="keyword">
+                  <li>#동양배경</li>
+                  <li>#판타지</li>
+                  <li>#초월적존재</li>
+                  <li>#직진남</li>
+                  <li>#상처녀</li>
+                </ul>
+              </div>
+            </article>
+          </a>
+        </div>
+
+        <div class="content_goods" id="goods">
+          <h1>GOODS</h1>
+
+          <a href="#none">
+            <article>
+              <div class="inner_img">
+                <img src="./images/work/Products/product_goods_sea.png" alt="낭만이라고는 없는 바다 명대사 책갈피 목업">
+              </div>
+              <div class="inner_text">
+                <h2>『낭만이라고는 없는 바다』 명대사 책갈피</h2>
+                <h3>이도아</h3>
+                <p>
+                  『낭만이라고는 없는 바다』의 명대사를 담은 책갈피와 함께하는 낭만적인 독서!<br>
+                  거친 파도가 이는 바다를 닮은 유화 일러스트, 난로가 고장난 나머지 어쩔 수 없이 서로 체온을 나누며 잠들어야만 했던 고풍스러운 숙소의 문을 닮은 프레임, 모든 게 다 엉망이었기에
+                  더욱
+                  낭만적이었던 고백과 그 순간 걷히는 구름 사이로 찬란하게 빛을 발한 북극성을 담은 디자인.<br>
+                  감성적인 종이, 실용적인 PET 중 원하는 소재로 선택 구매 가능!
+                </p>
+              </div>
+            </article>
+          </a>
+
+          <a href="#none">
+            <article>
+              <div class="inner_img">
+                <img src="./images/work/Products/product_goods_survival.png" alt="모든 것은 생존을 위한 선택이었다 떡 메모지 목업">
+              </div>
+              <div class="inner_text">
+                <h2>『모든 것은 생존을 위한 선택이었다』 떡 메모지</h2>
+                <h3>헤레이스</h3>
+                <p>
+                  아무리 사소한 것일지라도 기억하라! 그 기억이 언젠가 너를 살릴 테니!<br>
+                  『모든 것은 생존을 위한 선택이었다』의 주인공 코델리아의 습관이자 버릇인 '기억'을 도울 떡 메모지 출시!<br>
+                  코델리아의 눈 색을 그대로 옮긴 듯한 깊은 푸른색, 그녀의 우아함을 표현하는 고급스러운 프레임과 배경 패턴, 그녀의 생존을 위한 선택을 상징하는 엔틱한 오브젝트들을 담은
+                  디자인.<br>
+                  95mm×95mm의 넉넉한 크기와 100매의 넉넉한 양으로 마음껏 기록할 수 있습니다!
+                </p>
+              </div>
+            </article>
+          </a>
+
+          <a href="#none">
+            <article>
+              <div class="inner_img">
+                <img src="./images/work/Products/product_goods_snow.png" alt="서리가 녹으면 아침이 오고 눈이 녹으면 봄이 온다 변온 머그잔 목업">
+              </div>
+              <div class="inner_text">
+                <h2>『서리가 녹으면 아침이 오고 눈이 녹으면 봄이 온다』 변온 머그잔</h2>
+                <h3>묵현</h3>
+                <p>
+                  묘운의 곁에서 점점 녹아가는 연의 마음을 표현한 변온 머그잔으로 당신의 몸과 마음도 녹여 보세요.<br>
+                  둥근 달, 자욱이 낀 구름, 울부짖는 늑대가 외로이 달밤을 견디는 연을 닮았습니다. 그런 머그잔에 연을 찾아온 묘운과 같은 따뜻한 음료를 담으면, 연의 마음처럼 달이 점점 녹아내리는
+                  것을
+                  볼 수 있습니다.<br>
+                  연을 녹여 주고자 다짐하는 묘운의 대사가 더해져 더욱 따사롭습니다.<br>
+                  400ml의 넉넉한 용량으로 풍족한 티타임을 즐기세요.
+                </p>
+              </div>
+            </article>
+          </a>
+        </div>
+      </div>
+      <!-- 탭1 콘텐츠 끝 -->
+
+      <!-- 탭2 콘텐츠 시작 -->
+      <div id="tab02">
+        <!-- 바 시작 -->
+        <div class="bar">
+          <div class="bar_inner">
+            <ul class="wbg_button_ul">
+              <li><a href="#web2">WEBNOVEL</a></li>
+              <li><a href="#book2">BOOK</a></li>
+              <li><a href="#goods2">GOODS</a></li>
+            </ul>
+            <input type="search" placeholder="search">
+          </div>
+        </div>
+        <!-- 바 끝 -->
+
+        <div class="content2_web" id="web2">
+          <h1>WEBNOVEL</h1>
+
+          <a href="#none">
+            <section class="web_thron">
+              <div class="inner_img">
+                <img src="./images/work/Products/product_web2_throne.jpg" alt="그 왕좌는 당신에게 어울리지 않는다 표지">
+              </div>
+              <h2>그 왕좌는 당신에게<br>어울리지 않는다</h2>
+              <h3>이든</h3>
+            </section>
+          </a>
+
+          <a href="#none">
+            <section class="web_sea">
+              <div class="inner_img">
+                <img src="./images/work/Products/product_web2_sea.jpg" alt="낭만이라고는 없는 바다 표지">
+              </div>
+              <h2>낭만이라고는 없는 바다</h2>
+              <h3>이도아</h3>
+            </section>
+          </a>
+
+          <a href="#none">
+            <section class="web_survival">
+              <div class="inner_img">
+                <img src="./images/work/Products/product_web2_survival.jpg" alt="모든 것은 생존을 위한 선택이었다 표지">
+              </div>
+              <h2>모든 것은 생존을 위한<br>선택이었다</h2>
+              <h3>헤레이스</h3>
+            </section>
+          </a>
+
+          <a href="#none">
+            <section class="web_snow">
+              <div class="inner_img">
+                <img src="./images/work/Products/product_web2_snow.jpg" alt="서리가 녹으면 아침이 오고 눈이 녹으면 봄이 온다 표지">
+              </div>
+              <h2>서리가 녹으면 아침이 오고<br>눈이 녹으면 봄이 온다</h2>
+              <h3>묵현</h3>
+            </section>
+          </a>
+        </div>
+
+        <div class="content2_book" id="book2">
+          <h1>BOOK</h1>
+
+          <a href="#none">
+            <section>
+              <div class="inner_img">
+                <img src="./images/work/Products/product_book2_throne.png" alt="그 왕좌는 당신에게 어울리지 않는다 단행본 표지">
+              </div>
+              <h2>그 왕좌는 당신에게<br>어울리지 않는다</h2>
+              <h3>이든</h3>
+            </section>
+          </a>
+
+          <a href="#none">
+            <section>
+              <div class="inner_img">
+                <img src="./images/work/Products/product_book2_sea.png" alt="낭만이라고는 없는 바다 단행본 표지">
+              </div>
+              <h2>낭만이라고는 없는 바다</h2>
+              <h3>이도아</h3>
+            </section>
+          </a>
+
+          <a href="#none">
+            <section>
+              <div class="inner_img">
+                <img src="./images/work/Products/product_book2_survival.png" alt="모든 것은 생존을 위한 선택이었다 단행본 표지">
+              </div>
+              <h2>모든 것은 생존을 위한<br>선택이었다</h2>
+              <h3>헤레이스</h3>
+            </section>
+          </a>
+
+          <a href="#none">
+            <section>
+              <div class="inner_img">
+                <img src="./images/work/Products/product_book2_snow.png" alt="서리가 녹으면 아침이 오고 눈이 녹으면 봄이 온다 단행본 표지">
+              </div>
+              <h2>서리가 녹으면 아침이 오고<br>눈이 녹으면 봄이 온다</h2>
+              <h3>묵현</h3>
+            </section>
+          </a>
+        </div>
+
+        <div class="content2_goods" id="goods2">
+          <h1>GOODS</h1>
+
+          <a href="#none">
+            <section>
+              <div class="inner_img">
+                <img src="./images/work/Products/product_goods2_sea.png" alt="낭만이라고는 없는 바다 명대사 책갈피 목업">
+              </div>
+              <h2>『낭만이라고는 없는 바다』<br>명대사 책갈피</h2>
+              <h3>이도아</h3>
+            </section>
+          </a>
+
+          <a href="#none">
+            <section>
+              <div class="inner_img">
+                <img src="./images/work/Products/product_goods2_survival.png" alt="모든 것은 생존을 위한 선택이었다 메모지 목업">
+              </div>
+              <h2>『모든 것은 생존을 위한 선택이었다』<br>떡 메모지</h2>
+              <h3>헤레이스</h3>
+            </section>
+          </a>
+
+          <a href="#none">
+            <section>
+              <div class="inner_img">
+                <img src="./images/work/Products/product_goods2_snow.png" alt="서리가 녹으면 아침이 오고 눈이 녹으면 봄이 온다 변온 머그잔 목업">
+              </div>
+              <h2>『서리가 녹으면 아침이 오고<br>눈이 녹으면 봄이 온다』<br>변온 머그잔</h2>
+              <h3>묵현</h3>
+            </section>
+          </a>
+        </div>
+      </div>
+      <!-- 탭2 콘텐츠 끝 -->
+    </div>
+  </div>
+  <!-- 탭 끝 -->
+
+  <!-- 팝업 시작 -->
+  <div class="popup_all thron_web_popup">
+    <div class="popup thron_bg">
+      <ul class="popup_ul">
+        <li><img src="./images/work/popup/popup_logo.png" alt="소장 로고"></li>
+        <li><a href="#none"><img src="./images/work/popup/popup_x.png" alt="닫기 버튼"></a></li>
+      </ul>
+      <div class="popup_inner">
+        <div class="popup_img">
+          <img src="./images/work/popup/popup_throne.jpg" alt="그 왕좌는 당신에게 어울리지 않는다 표지">
+        </div>
+        <div class="popup_text">
+          <h1>그 왕좌는 당신에게 어울리지 않는다</h1>
+          <h3>작품 개요</h3>
+          <p class="p1">
+            장르 : 로맨스판타지 <br>
+            작가 : 이든 <br>
+            키워드 : 서양 배경, 인외 존재, 배신, 애증, 카리스마남, 계략녀
+          </p>
+          <h3>작품 소개</h3>
+          <p class="p2">
+            게르하르트의 서늘한 시선이 계단을 밟고 위로 또 위로 올라갔다. 바라보기도 힘들 만큼 찬란한 빛을 발하는 왕좌 위에는 그의 오랜 친우가 앉아 있었다. <br>
+            종족을 뛰어넘어 서로를 이해하는 사이라고 생각했다. 그 모든 대화가 게르하르트의 눈을 가리기 위한 거짓말이었다는 사실을 알아차리기 전까지. 그녀의 손에 잡혀 이용당하고 끝내 죽임당한 동족들의
+            시체가 이룬 산을 발견하기 전까지 말이다. <br>
+            그녀의 오만함이 흘러넘치는 낯을 꿋꿋하게 응시하던 게르하르트가 말했다. <br>
+            “그래. 인정해. 당신의 능력은 나로서도 높이 평가하지 않을 수가 없지.” <br>
+            “그런데 왜 내게 협조하지 않지? 내 힘에 네 힘까지 더해진다면 얻지 못하는 게 없을 텐데.” <br>
+            “정말 몰라서 물어?” <br>
+            폐부를 찌르는 비수 같은 말이었으나, 그녀는 오히려 입꼬리를 짙게 끌어올리며 악독하게 웃어 젖혔다. <br>
+            “이렇게나 마음이 여려서야. 그래서 너는 안 된다는 거야, 게르하르트.” <br>
+            “그렇게나 강하다는 너도 안 되는 건 마찬가지야, 아멜리아.” <br>
+            죽음의 문턱에 걸친 동족들을 구하기 위해, 한때나마 어여삐 여긴 왕국의 인간들을 구하기 위해, 그들이 살아갈 세계를 구하기 위해, 게르하르트가 오랜 잠에 빠져 있던 검의 봉인을 푼다.
+          </p>
+          <a href="https://ridibooks.com/romance-fantasy/webnovel" target="_blank">작품 보기</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="popup_all sea_web_popup">
+    <div class="popup sea_bg">
+      <ul class="popup_ul">
+        <li><img src="./images/work/popup/popup_logo.png" alt="소장 로고"></li>
+        <li><a href="#none"><img src="./images/work/popup/popup_x.png" alt="닫기 버튼"></a></li>
+      </ul>
+      <div class="popup_inner">
+        <div class="popup_img">
+          <img src="./images/work/popup/popup_sea.jpg" alt="낭만이라고는 없는 바다 표지">
+        </div>
+        <div class="popup_text">
+          <h1>낭만이라고는 없는 바다</h1>
+          <h3>작품 개요</h3>
+          <p class="p1">
+            장르 : 로맨스 <br>
+            작가 : 이도아 <br>
+            키워드 : 현대 배경, 친구에서 연인, 다정남, 까칠녀
+          </p>
+          <h3>작품 소개</h3>
+          <p class="p2">
+            “이번 일이 끝나면 같이 바다에라도 갈까.” <br>
+            난데없는 말이었다. 야근에 찌든 나머지 의자에 해조류처럼 축 늘어져서는 전쟁 소설의 클리셰 같은 소리를 내뱉다니, 최악 중의 최악이었다. <br>
+            “그럴까.” <br>
+            하지만 어째서인지 수락해 버리고 말았다. 주인공이 왜 그런 멋도 없는 권유를 수락하는지 늘 이해할 수 없었는데, 지금 이 순간에 이해하고야 말았다. <br>
+            그냥 아무런 생각이 없었던 것이었다. <br>
+            그렇게 일을 마무리 짓자마자 다짜고짜 떠나게 된 바다 여행은 모든 게 다 엉망이었다. 교통편은 험하기 짝이 없었고, 숙소는 불편하기 그지없었다. 심지어는 목적이었던 바다마저도 칼날 같은
+            겨울바람이 일으킨 거센 파도 때문에 제대로 볼 수가 없었다. <br>
+            두 사람은 이 낭만 따위 없는 바다 여행을 무사히 마칠 수 있을까.
+          </p>
+          <a href="https://page.kakao.com/" target="_blank">작품 보기</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="popup_all survival_web_popup">
+    <div class="popup survival_bg">
+      <ul class="popup_ul">
+        <li><img src="./images/work/popup/popup_logo.png" alt="소장 로고"></li>
+        <li><a href="#none"><img src="./images/work/popup/popup_x.png" alt="닫기 버튼"></a></li>
+      </ul>
+      <div class="popup_inner">
+        <div class="popup_img">
+          <img src="./images/work/popup/popup_survival.jpg" alt="모든 것은 생존을 위한 선택이었다 표지">
+        </div>
+        <div class="popup_text">
+          <h1>모든 것은 생존을 위한 선택이었다</h1>
+          <h3>작품 개요</h3>
+          <p class="p1">
+            장르 : 로맨스판타지 <br>
+            작가 : 헤레이스 <br>
+            키워드 : 서양 배경, 성장물, 계약 관계, 능력남, 능력녀
+          </p>
+          <h3>작품 소개</h3>
+          <p class="p2">
+            알렉시아 가의 총명한 둘째 딸 코델리아. 그녀는 모든 방면에서 두각을 보였으나, 권력 따위에 일말의 관심도 없었다. 첫째인 오라버니가 가주가 될 테니, 자신은 그를 보좌하며 그저 평화롭게 살고
+            싶었다. <br>
+            그런데 오라버니의 승계 시기가 다가오면 다가올수록 코델리아에게 변고가 생기기 시작한다. 터무니없는 모함부터 시작해서, 독살 시도에 암살 시도까지…. 필사적으로 뒤를 밟은 결과, 그 모든 시도가
+            가주를 허수아비로 휘두르려 하는 가솔들의 짓임을 알아낸다. <br>
+            결국 코델리아는 오라버니의 안정과 자신의 생존을 위해 출가를 결심한다. 하지만 그들이 원하는 대로 흘러가 줄 생각은 없었다. 결혼 대신 용병의 길을 선택한 그녀는 하루하루 고되지만 자유로운 삶을
+            살아간다. <br>
+            그러던 어느 날, 그녀가 호위하던 상단이 의문의 집단에 습격당한다. 모두가 죽었다. 유일하게 붙어 있던 그녀의 숨마저도 점점 사그라져 갔다. <br>
+            “모든 게 다 부질없는 짓이었던가…….” <br>
+            “그럴 리가 있나.” <br>
+            다시는 뜰 수 없으리라 생각했던 눈이 번쩍 뜨였다. 그 사실에 놀랄 새도 없이 눈앞에 보이는 황궁보다도 휘황찬란한 방 안에 오만하게 앉은 남자가 덥석 계약을 걸어왔다. <br>
+            “살 수 있게 해주지. 대신 그렇게 이어가는 삶은 나를 위해 사용해줘야겠어.” <br>
+            과연 코델리아는 무사히 생존할 수 있을 것인가!
+          </p>
+          <a href="https://ridibooks.com/romance-fantasy/webnovel" target="_blank">작품 보기</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="popup_all snow_web_popup">
+    <div class="popup snow_bg">
+      <ul class="popup_ul">
+        <li><img src="./images/work/popup/popup_logo.png" alt="소장 로고"></li>
+        <li><a href="#none"><img src="./images/work/popup/popup_x.png" alt="닫기 버튼"></a></li>
+      </ul>
+      <div class="popup_inner">
+        <div class="popup_img">
+          <img src="./images/work/popup/popup_snow.jpg" alt="서리가 녹으면 아침이 오고 눈이 녹으면 봄이 온다 표지">
+        </div>
+        <div class="popup_text">
+          <h1>서리가 녹으면 아침이 오고 눈이 녹으면 봄이 온다</h1>
+          <h3>작품 개요</h3>
+          <p class="p1">
+            장르 : 판타지 <br>
+            작가 : 묵현 <br>
+            키워드 : 동양 배경, 초월적 존재, 직진남, 상처녀
+          </p>
+          <h3>작품 소개</h3>
+          <p class="p2">
+            이유를 알 수 없는 어머니의 간곡한 부탁에 못 이겨 먼 길을 다녀온 묘운을 기다린 것은 하늘 높이 치솟은 시뻘건 불길과 그를 방관하고 있는 마을 사람들이었다. 그는 손 쓸 도리도 없이 모든 것을
+            잃어버리고 말았다. 집도, 가족도, 관계도. <br>
+            신의 노여움을 사 벌을 받은 것이라 말하는 마을 사람들을 뒤로한 묘운은 검 한 자루만을 쥐고서 신역으로 향한다. 어디에도 붙일 수 없는 목숨이라면 차라리 복수로써 불태우겠노라고. <br>
+            그러나 갖은 고난 끝에 도착한 신역에서 묘운은 웬 서리빛의 늑대를 마주하게 되었다. 도망쳐야 할지, 아니면 맞서 싸워야 할지 고민하는 와중. <br>
+            “어찌 사람의 몸으로 이런 험한 곳까지 오셨소.” <br>
+            늑대가 사람의 말을 했다. <br>
+            자신을 이곳의 신이라 소개한 늑대는 묘운에게 벌어진 일이 자신의 소행이 아님을 밝히며, 이곳에서 벌어지고 있는 사건에 대해 설명하기 시작하는데….
+          </p>
+          <a href="https://series.naver.com/novel/home.series" target="_blank">작품 보기</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 팝업 끝 -->
+
+  <!-- 푸터 시작 -->
+  <footer>
+    <div class="footer_inner">
+      <a href="./index.html"><img src="./images/main/logo/footer_logo.png" alt="푸터 로고 이미지"></a>
+      <ul class="sns_button">
+        <li><a href="https://www.instagram.com/" target="_blank"><img src="./images/main/icon/icon_insta.png"
+              alt="인스타 이동 버튼"></a></li>
+        <li><a href="https://twitter.com/" target="_blank"><img src="./images/main/icon/icon_twitter.png"
+              alt="트위터 이동 버튼"></a></li>
+        <li><a href="https://section.blog.naver.com/BlogHome.naver?directoryNo=0&currentPage=1&groupId=0"
+            target="_blank"><img src="./images/main/icon/icon_blog.png" alt="블로그 이동 버튼"></a></li>
+      </ul>
+      <p>
+        대표자｜박효빈<br>
+        대표번호｜051-245-1650<br>
+        사업자등록번호｜ 000-00-00000<br>
+        주소｜ 부산광역시 중구 중앙대로 26 다원중앙타워 10<br>
+        © 2023. 소장 all rights reserved.
+      </p>
+    </div>
+  </footer>
+  <!-- 푸터 끝 -->
+
+  <!-- 상단 이동 버튼 시작 -->
+  <a href="#" class="move_top"><img src="./images/main/icon/icon_move_top.png" alt="상단 이동 버튼 이미지"></a>
+  <!-- 상단 이동 버튼 끝 -->
+
+
+  <!-- 자바스크립트 -->
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script><!-- 제이쿼리 라이브러리, 수정X -->
+  <!-- 네비게이션 js -->
+  <script src="script/header_scroll.js"></script>
+  <!-- 탭 js -->
+  <script src="script/tab.js"></script>
+  <!-- 상단 이동 버튼 js -->
+  <script src="script/icon.js"></script>
+  <!-- aos js -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!-- aos 라이브러리 -->
+  <script src="script/aos.js"></script><!-- aos 소스 -->
+  <!-- 팝업 js -->
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <script src="./script/popup.js"></script>
+</body>
+
+</html>
