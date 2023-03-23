@@ -420,6 +420,7 @@ h1 {
 /* 컨텍 */
 .contact {
     background: url(../images/main/bg/bg_contect.jpg) no-repeat center top fixed;
+    background-size: cover;
 }
 
 .contact_inner {

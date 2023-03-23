@@ -193,6 +193,7 @@ nav {
     position: relative;
     z-index: 5;
     background: url(../images/contribution/banner/main_banner.jpg) no-repeat 50% 0;
+    background-size: cover;
     margin: auto;
     height: 642px;
 }

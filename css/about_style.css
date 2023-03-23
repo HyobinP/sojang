@@ -182,6 +182,7 @@ nav {
     position: relative;
     z-index: 5;
     background: url(../images/about/bg/bg_header.jpg) no-repeat 50% 0;
+    background-size: cover;
     margin: auto;
     height: 940px;
 }
